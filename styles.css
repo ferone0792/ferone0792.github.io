@@ -1,191 +1,86 @@
 body {
-  /* Sets a readable font */
-  font-family: Arial, Helvetica, sans-serif;
-
-  /* Removes the browser's default space around the page */
+  font-family: Arial, Helvetica, sans-serif;  /* Sets the font */
   margin: 0;
-
-  /* Adds space inside the page edges */
-  padding: 0;
-
-  /* Sets the main text color */
-  color: #222;
-
-  /* Sets a simple background gradient */
-  background: linear-gradient(to bottom, #f5f7ff, #e8f0ff);
+  padding: 0;  /* Removes the empty space around the page and adds space inside the page edges */
+  color: #222; /* Main text color */ 
+  background: linear-gradient(to bottom, #f5f7ff, #e8f0ff); /* Background gradient */
 }
 
-/* This keeps content from touching the edges on wide screens */
 main {
-  /* Limits how wide the content can get */
   max-width: 900px;
-
-  /* Centers the main content */
   margin: 0 auto;
-
-  /* Adds space inside the main area */
-  padding: 20px;
+  padding: 20px; /* This keeps content from touching the edges on wide screens, centers content, and adds space inside main area */
 }
 
-/* =========================
-   HEADER STYLES
-   ========================= */
-
-/* Styles the entire header section */
 header {
-  /* Centers the text inside the header */
   text-align: center;
-
-  /* Adds space inside the header */
   padding: 25px 15px;
-
-  /* Adds a dark background color */
   background-color: #1f3a5f;
-
-  /* Makes header text show up clearly */
-  color: #ffffff;
+  color: #ffffff;  /* Styles the entire header section, colors, padding, and makes text show up clearly */
 }
 
-/* Styles the big title in the header */
+
 header h1 {
-  /* Removes default spacing around the h1 */
   margin: 0;
-
-  /* Makes the text bigger */
   font-size: 2rem;
-
-  /* Makes the text thicker/bolder */
-  font-weight: 700;
+  font-weight: 700; /* Styles the title size and how thick it is */
 }
 
-/* =========================
-   NAVIGATION MENU STYLES
-   ========================= */
-
-/* Targets the unordered list inside nav */
 nav ul {
-  /* Removes bullet points */
   list-style: none;
-
-  /* Removes default spacing */
   margin: 15px 0 0 0;
   padding: 0;
-
-  /* Makes the list items go in a row */
   display: flex;
-
-  /* Centers the nav items */
   justify-content: center;
-
-  /* Adds space between items */
-  gap: 15px;
+  gap: 15px; /* Styles the list, removes bullet points, edits spacing, and makes the list into a row */
 }
 
-/* Targets each list item */
 nav li {
-  /* No extra styling needed here, but keeps layout clean */
-  padding: 0;
+  padding: 0; /* Cleans the layout of the list items */
 }
 
-/* Targets the links inside the nav */
 nav a {
-  /* Removes underline */
   text-decoration: none;
-
-  /* Sets link text color */
   color: #ffffff;
-
-  /* Adds space inside each link */
   padding: 10px 14px;
-
-  /* Rounds the corners */
   border-radius: 8px;
-
-  /* Makes hover changes smooth */
-  transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s; /* Customizes the link including colors, space inside the links, and corners */
 }
 
-/* Changes the link look when you hover */
 nav a:hover {
-  /* Adds a lighter background on hover */
   background-color: #ffffff;
-
-  /* Changes text to dark so it stays readable */
-  color: #1f3a5f;
+  color: #1f3a5f;  /*lightens background when you hover over it and makes text dark*/
 }
 
-/* =========================
-   MAIN SECTION STYLES
-   ========================= */
-
-/* Styles every section inside main */
 main section {
-  /* Adds space around each section */
   margin: 20px 0;
-
-  /* Adds space inside each section */
   padding: 20px;
-
-  /* Gives each section a clean background */
   background-color: #ffffff;
-
-  /* Adds a light border */
   border: 1px solid #d9e2ff;
-
-  /* Adds a soft shadow so it stands out */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
-
-  /* Rounds the corners */
-  border-radius: 12px;
+  border-radius: 12px; /* Customizes section inside of main, spaces, background, border, and shadow */
 }
 
-/* Styles each section heading */
 main section h2 {
-  /* Removes some default spacing */
   margin-top: 0;
-
-  /* Makes headings a little larger */
   font-size: 1.4rem;
-
-  /* Adds a nice color */
-  color: #1f3a5f;
+  color: #1f3a5f; /* Styles heading, increases heading size, color */
 }
 
-/* Styles paragraphs for readability */
 main section p {
-  /* Makes lines easier to read */
   line-height: 1.6;
-
-  /* Slightly increases text size */
   font-size: 1rem;
-
-  /* Removes extra default margin at bottom */
-  margin-bottom: 0;
+  margin-bottom: 0; /* Makes paragraph readable and changes margins*/
 }
 
-/* =========================
-   FOOTER STYLES
-   ========================= */
-
-/* Styles the footer area */
 footer {
-  /* Centers footer text */
   text-align: center;
-
-  /* Adds space inside the footer */
   padding: 15px;
-
-  /* Smaller font like the rubric wants */
   font-size: 0.9rem;
-
-  /* Dark background for contrast */
   background-color: #1f3a5f;
-
-  /* Light text for contrast */
-  color: #ffffff;
+  color: #ffffff; /* Edits the position, space, font size, and color of footer */
 }
 
-/* Removes extra spacing in the footer paragraph */
 footer p {
-  margin: 0;
+  margin: 0; /* removes extra space in footer paragraph */
 }
